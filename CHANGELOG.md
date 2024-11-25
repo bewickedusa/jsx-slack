@@ -2,9 +2,12 @@
 
 ## [Unreleased]
 
+## v6.1.2 - 2024-10-31
+
 ### Fixed
 
 - `JSXSlackTemplateTag` type now accepts pure readonly string array ([#312](https://github.com/yhatt/jsx-slack/pull/312))
+- Fix `JSXSlack.Children.toArray` to make flatten children correctly even if caused dual import of `<Fragment>` ([#319](https://github.com/yhatt/jsx-slack/issues/319), [#320](https://github.com/yhatt/jsx-slack/pull/320))
 
 ### Changed
 
